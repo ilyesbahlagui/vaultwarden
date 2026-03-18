@@ -65,10 +65,10 @@ services:
     volumes:
       - ./data:/data
     networks:
-      - nginx-proxy-manager-default
+      - nginx-proxy-manager_default
 
 networks:
-  nginx-proxy-manager-default:
+  nginx-proxy-manager_default:
     external: true
 ```
 
