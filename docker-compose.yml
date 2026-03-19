@@ -4,7 +4,7 @@ services:
     container_name: vaultwarden
     restart: always
     environment:
-      DOMAIN: "https://vaultwarden.ton-domaine.fr"
+      DOMAIN: "https://vaultwarden.ib-app.fr" # A changer si besoin
       SIGNUPS_ALLOWED: "true"   # passer à "false" après création de ton compte
     volumes:
       - ./data:/data
